@@ -1,0 +1,13 @@
+{
+  "name": "work",
+  "version": "0.0.0",
+  "authors": [],
+  "description": "none",
+  "license": "MIT",
+  "devDependencies": {
+    "normalize.css": "latest",
+    "reset-css":"latest",
+    "jquery":"latest",
+    "bootstrap":"latest"
+  }
+}
