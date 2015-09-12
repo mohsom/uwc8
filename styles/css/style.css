@@ -112,5 +112,14 @@ body {
           background: url("../../img/step3.png") no-repeat; }
         body .wrapper .how-it-works .steps .step-middle {
           margin: 0 20px 0 20px; }
+    body .wrapper .partners {
+      width: 940px;
+      margin: 100px auto 0 auto; }
+      body .wrapper .partners .title {
+        text-align: center;
+        font-weight: 600;
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
