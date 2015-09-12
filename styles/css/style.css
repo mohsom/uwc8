@@ -235,6 +235,33 @@ body {
       width: 100%;
       margin-top: 90px;
       padding-top: 35px;
-      border-top: 4px solid #ff4e50; }
+      border-top: 4px solid #ff4e50;
+      padding-bottom: 40px; }
+      body .wrapper .footer .content {
+        width: 940px;
+        margin: 0 auto; }
+        body .wrapper .footer .content .logo {
+          display: inline-block;
+          vertical-align: text-top;
+          margin-right: 100px; }
+        body .wrapper .footer .content .menu {
+          display: inline-block;
+          vertical-align: text-top;
+          margin-top: 3px;
+          margin-right: 90px; }
+          body .wrapper .footer .content .menu .menu-title {
+            font-size: 15px;
+            margin-bottom: 20px; }
+          body .wrapper .footer .content .menu ul li {
+            padding-bottom: 5px; }
+            body .wrapper .footer .content .menu ul li a {
+              color: #858585;
+              text-decoration: none;
+              font-size: 15px;
+              font-family: "Roboto", sans-serif; }
+        body .wrapper .footer .content .designed {
+          display: inline-block;
+          vertical-align: text-top;
+          float: right; }
 
 /*# sourceMappingURL=style.css.map */

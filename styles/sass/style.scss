@@ -287,6 +287,42 @@ body {
       margin-top: 90px;
       padding-top: 35px;
       border-top: 4px solid $pink;
+      padding-bottom: 40px;
+      .content{
+        width: $block-width;
+        margin: 0 auto;
+        .logo{
+          display: inline-block;
+          vertical-align: text-top;
+          margin-right: 100px;
+        }
+        .menu{
+          display: inline-block;
+          vertical-align: text-top;
+          margin-top: 3px;
+          margin-right: 90px;
+          .menu-title{
+            font-size: 15px;
+            margin-bottom: 20px;
+          }
+          ul{
+            li{
+              padding-bottom: 5px;
+              a{
+                color: #858585;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: $roboto;
+              }
+            }
+          }
+        }
+        .designed{
+          display: inline-block;
+          vertical-align: text-top;
+          float: right;
+        }
+      }
     }
   }
 }
