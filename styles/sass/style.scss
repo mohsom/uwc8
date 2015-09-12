@@ -77,5 +77,15 @@ body {
         }
       }
     }
+    .how-it-works{
+      width: $block-width;
+      margin: 100px auto 0 auto;
+      .title{
+        text-align: center;
+        font-weight: 600;
+        color: $title-color;
+        font-size: 20px;
+      }
+    }
   }
 }

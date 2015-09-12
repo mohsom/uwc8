@@ -60,5 +60,13 @@ body {
           margin: 40px auto 0 auto;
           padding-top: 13px;
           padding-bottom: 13px; }
+    body .wrapper .how-it-works {
+      width: 940px;
+      margin: 100px auto 0 auto; }
+      body .wrapper .how-it-works .title {
+        text-align: center;
+        font-weight: 600;
+        color: #333333;
+        font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
