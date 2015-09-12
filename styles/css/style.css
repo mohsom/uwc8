@@ -6,6 +6,35 @@ body {
       width: 100%;
       background: url("../../img/promo.png") no-repeat top center;
       background-size: cover;
-      min-height: 700px; }
+      min-height: 700px;
+      padding-top: 38px; }
+      body .wrapper .promo .header {
+        width: 940px;
+        max-width: 100%;
+        margin: 0 auto; }
+        body .wrapper .promo .header .logo {
+          display: inline-block;
+          float: left; }
+        body .wrapper .promo .header .header-left {
+          display: inline-block;
+          float: right; }
+          body .wrapper .promo .header .header-left a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px; }
+          body .wrapper .promo .header .header-left .login {
+            display: inline-block; }
+            body .wrapper .promo .header .header-left .login:hover {
+              border-top: 1px solid #fff; }
+          body .wrapper .promo .header .header-left .sign-up {
+            display: inline-block;
+            vertical-align: middle;
+            width: 90px;
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */

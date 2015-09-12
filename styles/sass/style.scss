@@ -2,15 +2,52 @@
 @import "big-screen";
 @import "small-screen";
 @import "medium-screen";
-body{
+
+body {
   font-family: $font;
-  .wrapper{
+  .wrapper {
     width: 100%;
-    .promo{
+    .promo {
       width: 100%;
       background: url('../../img/promo.png') no-repeat top center;
       background-size: cover;
       min-height: 700px;
+      padding-top: 38px;
+      .header {
+        width: 940px;
+        max-width: 100%;
+        margin: 0 auto;
+        .logo {
+          display: inline-block;
+          float: left;
+        }
+        .header-left {
+          display: inline-block;
+          float: right;
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+          }
+          .login {
+            display: inline-block;
+            &:hover{
+              border-top: 1px solid #fff;
+            }
+          }
+          .sign-up {
+            display: inline-block;
+            vertical-align: middle;
+            width: 90px;
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+          }
+        }
+      }
     }
   }
 }
