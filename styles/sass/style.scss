@@ -114,12 +114,12 @@ body {
               text-align: center;
               margin-bottom: 20px;
             }
-            .title{
+            .title {
               color: #fff;
               font-size: 25px;
               text-align: left;
             }
-            .desc{
+            .desc {
               margin-top: 20px;
               font-size: 15px;
               color: #b6b5b4;
@@ -141,29 +141,29 @@ body {
         }
       }
     }
-    .partners{
+    .partners {
       width: $block-width;
       margin: 100px auto 0 auto;
-      .title{
+      .title {
         text-align: center;
         font-weight: 600;
         color: $title-color;
         font-size: 20px;
         margin-bottom: 40px;
       }
-      .partner{
+      .partner {
         display: inline-block;
         vertical-align: text-top;
         width: 220px;
-        img{
+        img {
           display: block;
           margin: 0 auto 20px auto;
         }
-        .title{
+        .title {
           font-size: 15px;
           margin-bottom: 20px;
         }
-        .desc{
+        .desc {
           text-align: center;
           color: #858585;
           font-weight: normal;
@@ -172,12 +172,12 @@ body {
         }
         margin-right: 20px;
       }
-      .last{
+      .last {
         margin-right: 0;
       }
-      .other-partners{
+      .other-partners {
         display: block;
-        margin: 40px auto 40px auto;
+        margin: 40px auto 0 auto;
         padding-top: 13px;
         padding-bottom: 13px;
         text-align: center;
@@ -188,6 +188,17 @@ body {
         border-radius: 20px;
         text-decoration: none;
         font-weight: 600;
+      }
+    }
+    .ideas {
+      width: $block-width;
+      margin: 100px auto 0 auto;
+      .title {
+        text-align: center;
+        font-weight: 600;
+        color: $title-color;
+        font-size: 20px;
+        margin-bottom: 40px;
       }
     }
   }

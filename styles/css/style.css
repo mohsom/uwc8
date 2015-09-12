@@ -142,7 +142,7 @@ body {
         margin-right: 0; }
       body .wrapper .partners .other-partners {
         display: block;
-        margin: 40px auto 40px auto;
+        margin: 40px auto 0 auto;
         padding-top: 13px;
         padding-bottom: 13px;
         text-align: center;
@@ -153,5 +153,14 @@ body {
         border-radius: 20px;
         text-decoration: none;
         font-weight: 600; }
+    body .wrapper .ideas {
+      width: 940px;
+      margin: 100px auto 0 auto; }
+      body .wrapper .ideas .title {
+        text-align: center;
+        font-weight: 600;
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
