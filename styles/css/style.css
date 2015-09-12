@@ -15,18 +15,18 @@ body {
         body .wrapper .promo .header .logo {
           display: inline-block;
           float: left; }
-        body .wrapper .promo .header .header-left {
+        body .wrapper .promo .header-left {
           display: inline-block;
           float: right; }
-          body .wrapper .promo .header .header-left a {
+          body .wrapper .promo .header-left a {
             color: #fff;
             text-decoration: none;
             font-size: 13px; }
-          body .wrapper .promo .header .header-left .login {
+          body .wrapper .promo .header-left .login {
             display: inline-block; }
-            body .wrapper .promo .header .header-left .login:hover {
+            body .wrapper .promo .header-left .login:hover {
               border-top: 1px solid #fff; }
-          body .wrapper .promo .header .header-left .sign-up {
+          body .wrapper .promo .header-left .sign-up {
             display: inline-block;
             vertical-align: middle;
             width: 90px;
@@ -36,5 +36,29 @@ body {
             padding-top: 10px;
             padding-bottom: 10px;
             margin-left: 20px; }
+      body .wrapper .promo-text {
+        color: #fff;
+        margin: 150px auto 0 auto;
+        width: 940px;
+        text-align: center; }
+        body .wrapper .promo-text .title {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 55px;
+          line-height: 60px; }
+        body .wrapper .promo-text .sub-title {
+          margin-top: 33px;
+          font-size: 23px; }
+        body .wrapper .promo-text .find-partner {
+          display: block;
+          background: #ff4e50;
+          font-size: 13px;
+          text-decoration: none;
+          color: #fff;
+          width: 225px;
+          border-radius: 20px;
+          margin: 40px auto 0 auto;
+          padding-top: 13px;
+          padding-bottom: 13px; }
 
 /*# sourceMappingURL=style.css.map */

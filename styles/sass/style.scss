@@ -14,14 +14,14 @@ body {
       min-height: 700px;
       padding-top: 38px;
       .header {
-        width: 940px;
+        width: $block-width;
         max-width: 100%;
         margin: 0 auto;
         .logo {
           display: inline-block;
           float: left;
         }
-        .header-left {
+        &-left {
           display: inline-block;
           float: right;
           a {
@@ -46,6 +46,34 @@ body {
             padding-bottom: 10px;
             margin-left: 20px;
           }
+        }
+      }
+      &-text{
+        color: #fff;
+        margin: 150px auto 0 auto;
+        width: $block-width;
+        text-align: center;
+        .title{
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 55px;
+          line-height: 60px;
+        }
+        .sub-title{
+          margin-top: 33px;
+          font-size: 23px;
+        }
+        .find-partner{
+          display: block;
+          background: $pink;
+          font-size: 13px;
+          text-decoration: none;
+          color: #fff;
+          width: 225px;
+          border-radius: 20px;
+          margin: 40px auto 0 auto;
+          padding-top: 13px;
+          padding-bottom: 13px;
         }
       }
     }
