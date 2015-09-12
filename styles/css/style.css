@@ -48,7 +48,8 @@ body {
           line-height: 60px; }
         body .wrapper .promo-text .sub-title {
           margin-top: 33px;
-          font-size: 23px; }
+          font-size: 23px;
+          font-family: "Roboto", sans-serif; }
         body .wrapper .promo-text .find-partner {
           display: block;
           background: #ff4e50;
