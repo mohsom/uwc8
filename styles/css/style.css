@@ -231,5 +231,10 @@ body {
           text-decoration: none;
           font-weight: 600;
           margin-left: 10px; }
+    body .wrapper .footer {
+      width: 100%;
+      margin-top: 90px;
+      padding-top: 35px;
+      border-top: 4px solid #ff4e50; }
 
 /*# sourceMappingURL=style.css.map */
