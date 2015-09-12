@@ -140,5 +140,18 @@ body {
           font-size: 15px; }
       body .wrapper .partners .last {
         margin-right: 0; }
+      body .wrapper .partners .other-partners {
+        display: block;
+        margin: 40px auto 40px auto;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        text-align: center;
+        width: 190px;
+        color: #ff4e50;
+        font-size: 13px;
+        border: 2px solid #ff4e50;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
