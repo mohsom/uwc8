@@ -68,5 +68,8 @@ body {
         font-weight: 600;
         color: #333333;
         font-size: 20px; }
+      body .wrapper .how-it-works .steps {
+        width: 100%;
+        margin-top: 40px; }
 
 /*# sourceMappingURL=style.css.map */
