@@ -2,3 +2,15 @@
 @import "big-screen";
 @import "small-screen";
 @import "medium-screen";
+body{
+  font-family: $font;
+  .wrapper{
+    width: 100%;
+    .promo{
+      width: 100%;
+      background: url('../../img/promo.png') no-repeat top center;
+      background-size: cover;
+      min-height: 700px;
+    }
+  }
+}
