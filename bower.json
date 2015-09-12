@@ -8,7 +8,6 @@
     "normalize.css": "latest",
     "reset-css": "latest",
     "jquery": "latest",
-    "bootstrap": "latest"
   },
   "dependencies": {
     "slick": "*"
