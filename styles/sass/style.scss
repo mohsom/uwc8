@@ -200,6 +200,26 @@ body {
         font-size: 20px;
         margin-bottom: 40px;
       }
+      .grid-row{
+        width: 100%;
+        margin-bottom: 15px;
+        .grid-item{
+          display: inline-block;
+          position: relative;
+          .title{
+            position: absolute;
+            text-align: center;
+            top: 46%;
+            width: 100%;
+            color: #fff;
+            font-weight: 700;
+            line-height: 1.2;
+          }
+        }
+        .mr-r{
+          margin-right: 18px;
+        }
+      }
     }
   }
 }

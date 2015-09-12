@@ -1,71 +1,100 @@
 doctype
 html
-   head
-      title UWC
-      include jade-includes/head.jade
-   body
-      .wrapper
-         .promo
-             .header
-                .logo
-                    img(src='img/logo.png' alt='')
-                .header-left
-                    a(href='#').login
-                        | Login
-                    a(href='#').sign-up
-                        | Sign up
-             .promo-text
-                .title
-                   | Share your
-                   br
-                   | holiday dreams
-                .sub-title
-                   | And find the perfect partner to fullfill it
-                a(href='#').find-partner
-                   | Find your holiday partner
-         .how-it-works
-             .title How Urlaubsglu&#776;ck works?
-             .steps
-                 .step.step-1
-                     .content
-                         .badge
-                             | Step 1
-                         .title Sed leo enim, condimentum
-                         .desc
-                             | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
-                 .step.step-2.step-middle
-                     .content
-                         .badge
-                             | Step 2
-                         .title Morbi velit risus
-                         .desc
-                             | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
-                 .step.step-3
-                     .content
-                         .badge
-                             | Step 3
-                         .title Sed leo enim, condimentum
-                         .desc
-                             | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
-         .partners
-             .title Meet a partner for your best holiday
-             .partner
-                 img(src='img/prt1.png' alt='')
-                 .title Bradley Hunter
-                 .desc Based in Chicago. I love playing tennis and loud music.
-             .partner
-                 img(src='img/prt2.png' alt='')
-                 .title Heather Walker
-                 .desc I'm a happy person that loves cats and climbing on mountains.
-             .partner
-                 img(src='img/prt3.png' alt='')
-                 .title Lucas Marsha
-                 .desc I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
-             .partner.last
-                 img(src='img/prt4.png' alt='')
-                 .title Bradley Hunter
-                 .desc Based in Chicago. I love playing tennis and loud music.
-             a.other-partners(href='#')
-                 | See other partners
-         .ideas
-             .title Discover holiday activity ideas
+    head
+        title UWC
+        include jade-includes/head.jade
+    body
+        .wrapper
+            .promo
+                .header
+                    .logo
+                        img(src='img/logo.png' alt='')
+                    .header-left
+                        a(href='#').login
+                            | Login
+                        a(href='#').sign-up
+                            | Sign up
+                .promo-text
+                    .title
+                        | Share your
+                        br
+                        | holiday dreams
+                    .sub-title
+                        | And find the perfect partner to fullfill it
+                    a(href='#').find-partner
+                        | Find your holiday partner
+            .how-it-works
+                .title How Urlaubsglu&#776;ck works?
+                .steps
+                    .step.step-1
+                        .content
+                            .badge
+                                | Step 1
+                            .title Sed leo enim, condimentum
+                            .desc
+                                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+                    .step.step-2.step-middle
+                        .content
+                            .badge
+                                | Step 2
+                            .title Morbi velit risus
+                            .desc
+                                | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+                    .step.step-3
+                        .content
+                            .badge
+                                | Step 3
+                            .title Sed leo enim, condimentum
+                            .desc
+                                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+            .partners
+                .title Meet a partner for your best holiday
+                .partner
+                    img(src='img/prt1.png' alt='')
+                    .title Bradley Hunter
+                    .desc Based in Chicago. I love playing tennis and loud music.
+                .partner
+                    img(src='img/prt2.png' alt='')
+                    .title Heather Walker
+                    .desc I'm a happy person that loves cats and climbing on mountains.
+                .partner
+                    img(src='img/prt3.png' alt='')
+                    .title Lucas Marsha
+                    .desc I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
+                .partner.last
+                    img(src='img/prt4.png' alt='')
+                    .title Bradley Hunter
+                    .desc Based in Chicago. I love playing tennis and loud music.
+                a.other-partners(href='#')
+                    | See other partners
+            .ideas
+                .title Discover holiday activity ideas
+                .grid
+                    .grid-row
+                        .grid-item.mr-r
+                            img(src='img/dis1.png' alt='')
+                            .title Sport and Activity
+                        .grid-item.mr-r
+                            img(src='img/dis2.png' alt='')
+                            .title Wellnes and Health
+                        .grid-item
+                            img(src='img/dis3.png' alt='')
+                            .title
+                                | Extreme Sports
+                                br
+                                | and Expeditions
+                    .grid-row
+                        .grid-item.mr-r
+                            img(src='img/dis4.png' alt='')
+                            .title Games
+                        .grid-item
+                            img(src='img/dis5.png' alt='')
+                            .title Culture and Education
+                    .grid-row
+                        .grid-item.mr-r
+                            img(src='img/dis6.png' alt='')
+                            .title Relaxation
+                        .grid-item
+                            img(src='img/dis7.png' alt='')
+                            .title Travelling
+

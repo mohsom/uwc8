@@ -162,5 +162,21 @@ body {
         color: #333333;
         font-size: 20px;
         margin-bottom: 40px; }
+      body .wrapper .ideas .grid-row {
+        width: 100%;
+        margin-bottom: 15px; }
+        body .wrapper .ideas .grid-row .grid-item {
+          display: inline-block;
+          position: relative; }
+          body .wrapper .ideas .grid-row .grid-item .title {
+            position: absolute;
+            text-align: center;
+            top: 46%;
+            width: 100%;
+            color: #fff;
+            font-weight: 700;
+            line-height: 1.2; }
+        body .wrapper .ideas .grid-row .mr-r {
+          margin-right: 18px; }
 
 /*# sourceMappingURL=style.css.map */
