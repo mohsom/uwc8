@@ -1,6 +1,6 @@
 @import "_var";
 
-@media(max-width: 785px) {
+@media(max-width: 784px) {
   .header {
     padding-left: 40px;
     padding-right: 40px;
@@ -18,6 +18,9 @@
   @media (max-width: 495px) {
     .partners {
       width: 220px;
+      .other-partners {
+        margin: 40px auto 0 auto;
+      }
       .partner {
         margin-bottom: 60px;
       }
@@ -26,6 +29,9 @@
   @media (min-width: 496px) {
     .partners {
       width: 480px;
+      .other-partners {
+        margin: 40px auto 0 auto;
+      }
       .partner {
         margin-bottom: 60px;
       }

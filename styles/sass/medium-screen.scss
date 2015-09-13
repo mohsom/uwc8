@@ -7,9 +7,15 @@
   }
   .six {
     width: 63%;
+    img {
+      height: 310px;
+    }
   }
   .three {
     width: 31%;
+    img {
+      height: 310px;
+    }
   }
   .steps {
     width: 98%;
@@ -26,6 +32,9 @@
   }
   .partners {
     width: 480px;
+    .other-partners {
+      margin: -20px auto 0 auto;
+    }
     .partner {
       margin-bottom: 60px;
     }
