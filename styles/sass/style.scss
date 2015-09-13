@@ -287,19 +287,9 @@ body {
       padding-bottom: 40px;
       .content{
         margin: 0 auto;
-        .logo{
-          display: inline-block;
-          vertical-align: text-top;
-          margin-right: 100px;
-        }
         .menu{
-          display: inline-block;
-          vertical-align: text-top;
-          margin-top: 3px;
-          margin-right: 90px;
           .menu-title{
             font-size: 15px;
-            margin-bottom: 20px;
           }
           ul{
             li{
@@ -312,11 +302,6 @@ body {
               }
             }
           }
-        }
-        .designed{
-          display: inline-block;
-          vertical-align: text-top;
-          float: right;
         }
       }
     }

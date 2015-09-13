@@ -32,4 +32,25 @@
   .mr-r {
     margin-right: 18px;
   }
+  .footer{
+    .logo{
+      display: inline-block;
+      vertical-align: text-top;
+      margin-right: 100px;
+    }
+    .menu{
+      display: inline-block;
+      vertical-align: text-top;
+      margin-top: 3px;
+      margin-right: 90px;
+      .menu-title{
+        margin-bottom: 20px;
+      }
+    }
+    .designed{
+      display: inline-block;
+      vertical-align: text-top;
+      float: right;
+    }
+  }
 }

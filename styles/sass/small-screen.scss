@@ -61,4 +61,33 @@
 
     }
   }
+  .footer{
+    .logo{
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+    .menu{
+      display: block;
+      margin: 0 auto;
+      .menu-title{
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      ul {
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 250px;
+        li {
+          display: inline-block;
+          vertical-align: middle;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+    .designed{
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
