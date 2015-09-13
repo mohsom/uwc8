@@ -1,1 +1,32 @@
 @import "_var";
+@media(max-width: 785px){
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .steps {
+    width: 100%;
+    margin: 40px auto 0 auto;
+    .step {
+      display: block;
+      width: 303px;
+      height: 240px;
+      margin: 10px auto;
+    }
+  }
+  .partners {
+    width: 480px;
+    .partner {
+      margin-bottom: 60px;
+    }
+  }
+  .first {
+    margin-left: 10px;
+  }
+  .footer{
+    .content {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}

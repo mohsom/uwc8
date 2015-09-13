@@ -1,6 +1,6 @@
 @import "_var";
 
-@media(max-width: 959px) {
+@media(max-width: 959px) and (min-width: 785px) {
   .header {
     padding-left: 40px;
     padding-right: 40px;
@@ -15,8 +15,14 @@
     width: 98%;
     margin: 40px auto 0 auto;
     .step {
+      display: inline-block;
+      vertical-align: text-top;
+      height: 400px;
       width: 30%;
     }
+  }
+  .step-middle {
+    margin: 0 20px 0 20px;
   }
   .partners {
     width: 480px;
@@ -27,8 +33,10 @@
   .first {
     margin-left: 10px;
   }
-  .content {
-    padding-left: 40px;
-    padding-right: 40px;
+  .footer{
+    .content {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
 }

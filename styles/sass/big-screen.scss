@@ -8,14 +8,22 @@
     width: 100%;
     margin-top: 40px;
     .step {
+      display: inline-block;
+      vertical-align: text-top;
+      height: 400px;
       width: 300px;
     }
+  }
+  .step-middle {
+    margin: 0 20px 0 20px;
   }
   .partners{
     width: $block-width;
   }
-  .content{
-    width: $block-width;
-    max-width: 100%;
+  .footer {
+    .content {
+      width: $block-width;
+      max-width: 100%;
+    }
   }
 }
