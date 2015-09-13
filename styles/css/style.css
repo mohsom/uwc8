@@ -39,13 +39,18 @@
       display: block;
       width: 303px;
       height: 240px;
-      margin: 10px auto; }
-
+      margin: 10px auto; } }
+@media (max-width: 785px) and (max-width: 495px) {
+  .partners {
+    width: 220px; }
+    .partners .partner {
+      margin-bottom: 60px; } }
+@media (max-width: 785px) and (min-width: 496px) {
   .partners {
     width: 480px; }
     .partners .partner {
-      margin-bottom: 60px; }
-
+      margin-bottom: 60px; } }
+@media (max-width: 785px) {
   .grid-item {
     display: block;
     margin: 10px auto;

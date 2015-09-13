@@ -15,10 +15,20 @@
       margin: 10px auto;
     }
   }
-  .partners {
-    width: 480px;
-    .partner {
-      margin-bottom: 60px;
+  @media (max-width: 495px) {
+    .partners {
+      width: 220px;
+      .partner {
+        margin-bottom: 60px;
+      }
+    }
+  }
+  @media (min-width: 496px) {
+    .partners {
+      width: 480px;
+      .partner {
+        margin-bottom: 60px;
+      }
     }
   }
   .grid-item {
