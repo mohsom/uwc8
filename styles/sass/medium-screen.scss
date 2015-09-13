@@ -1,1 +1,9 @@
 @import "_var";
+@media(max-width: 959px){
+    .partners{
+      width: 480px;
+      .partner{
+        margin-bottom: 60px;
+      }
+    }
+}

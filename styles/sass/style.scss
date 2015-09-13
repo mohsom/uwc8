@@ -52,6 +52,7 @@ body {
         color: #fff;
         margin: 150px auto 0 auto;
         width: $block-width;
+        max-width: 100%;
         text-align: center;
         .title {
           text-transform: uppercase;
@@ -80,6 +81,7 @@ body {
     }
     .how-it-works {
       width: $block-width;
+      max-width: 100%;
       margin: 100px auto 0 auto;
       .title {
         text-align: center;
@@ -143,7 +145,7 @@ body {
       }
     }
     .partners {
-      width: $block-width;
+      max-width: 100%;
       margin: 100px auto 0 auto;
       .title {
         text-align: center;
@@ -193,6 +195,7 @@ body {
     }
     .ideas {
       width: $block-width;
+      max-width: 100%;
       margin: 100px auto 0 auto;
       .title {
         text-align: center;
@@ -207,6 +210,12 @@ body {
         .grid-item {
           display: inline-block;
           position: relative;
+          max-width: 100%;
+          height: auto;
+          img{
+            max-width: 100%;
+            height: auto;
+          }
           .title {
             position: absolute;
             text-align: center;
@@ -224,6 +233,7 @@ body {
     }
     .ideas-form {
       width: $block-width;
+      max-width: 100%;
       margin: 0 auto;
       .title {
         text-align: center;
@@ -244,6 +254,7 @@ body {
       .form {
         margin: 0 auto 10px auto;
         width: 430px;
+        max-width: 100%;
         input {
           width: 240px;
           padding-top: 15px;
@@ -290,6 +301,7 @@ body {
       padding-bottom: 40px;
       .content{
         width: $block-width;
+        max-width: 100%;
         margin: 0 auto;
         .logo{
           display: inline-block;

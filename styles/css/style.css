@@ -1,3 +1,11 @@
+@media (min-width: 960px) {
+  .partners {
+    width: 940px; } }
+@media (max-width: 959px) {
+  .partners {
+    width: 480px; }
+    .partners .partner {
+      margin-bottom: 60px; } }
 body {
   font-family: "Montserrat", sans-serif; }
   body .wrapper {
@@ -40,6 +48,7 @@ body {
         color: #fff;
         margin: 150px auto 0 auto;
         width: 940px;
+        max-width: 100%;
         text-align: center; }
         body .wrapper .promo-text .title {
           text-transform: uppercase;
@@ -63,6 +72,7 @@ body {
           padding-bottom: 13px; }
     body .wrapper .how-it-works {
       width: 940px;
+      max-width: 100%;
       margin: 100px auto 0 auto; }
       body .wrapper .how-it-works .title {
         text-align: center;
@@ -114,7 +124,7 @@ body {
         body .wrapper .how-it-works .steps .step-middle {
           margin: 0 20px 0 20px; }
     body .wrapper .partners {
-      width: 940px;
+      max-width: 100%;
       margin: 100px auto 0 auto; }
       body .wrapper .partners .title {
         text-align: center;
@@ -156,6 +166,7 @@ body {
         font-weight: 600; }
     body .wrapper .ideas {
       width: 940px;
+      max-width: 100%;
       margin: 100px auto 0 auto; }
       body .wrapper .ideas .title {
         text-align: center;
@@ -168,7 +179,12 @@ body {
         margin-bottom: 15px; }
         body .wrapper .ideas .grid-row .grid-item {
           display: inline-block;
-          position: relative; }
+          position: relative;
+          max-width: 100%;
+          height: auto; }
+          body .wrapper .ideas .grid-row .grid-item img {
+            max-width: 100%;
+            height: auto; }
           body .wrapper .ideas .grid-row .grid-item .title {
             position: absolute;
             text-align: center;
@@ -181,6 +197,7 @@ body {
           margin-right: 18px; }
     body .wrapper .ideas-form {
       width: 940px;
+      max-width: 100%;
       margin: 0 auto; }
       body .wrapper .ideas-form .title {
         text-align: center;
@@ -198,7 +215,8 @@ body {
         margin-bottom: 40px; }
       body .wrapper .ideas-form .form {
         margin: 0 auto 10px auto;
-        width: 430px; }
+        width: 430px;
+        max-width: 100%; }
         body .wrapper .ideas-form .form input {
           width: 240px;
           padding-top: 15px;
@@ -239,6 +257,7 @@ body {
       padding-bottom: 40px; }
       body .wrapper .footer .content {
         width: 940px;
+        max-width: 100%;
         margin: 0 auto; }
         body .wrapper .footer .content .logo {
           display: inline-block;
