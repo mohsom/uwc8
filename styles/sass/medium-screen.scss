@@ -1,9 +1,17 @@
 @import "_var";
-@media(max-width: 959px){
-    .partners{
-      width: 480px;
-      .partner{
-        margin-bottom: 60px;
-      }
+
+@media(max-width: 959px) {
+  .steps {
+    width: 98%;
+    margin:40px auto 0 auto;
+    .step {
+      width: 30%;
     }
+  }
+  .partners {
+    width: 480px;
+    .partner {
+      margin-bottom: 60px;
+    }
+  }
 }

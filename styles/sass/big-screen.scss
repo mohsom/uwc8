@@ -1,5 +1,12 @@
 @import "_var";
 @media(min-width: 960px){
+  .steps {
+    width: 100%;
+    margin-top: 40px;
+    .step {
+      width: 300px;
+    }
+  }
   .partners{
     width: $block-width;
   }
