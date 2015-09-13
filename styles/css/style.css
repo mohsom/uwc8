@@ -36,9 +36,9 @@
     display: inline-block;
     vertical-align: text-top;
     margin-top: 3px;
-    margin-right: 90px; }
+    margin-right: 85px; }
     .footer .menu .menu-title {
-      margin-bottom: 20px; }
+      margin-bottom: 15px; }
   .footer .designed {
     display: inline-block;
     vertical-align: text-top;
@@ -199,7 +199,7 @@
     margin-top: 3px;
     margin-right: 90px; }
     .footer .menu .menu-title {
-      margin-bottom: 20px; }
+      margin-bottom: 15px; }
   .footer .designed {
     display: inline-block;
     vertical-align: text-top;
@@ -227,7 +227,7 @@ body {
       width: 100%;
       background: url("../../img/promo.png") no-repeat top center;
       background-size: cover;
-      min-height: 700px;
+      min-height: 665px;
       padding-top: 38px; }
       body .wrapper .promo .header {
         margin: 0 auto; }
@@ -251,7 +251,7 @@ body {
           margin-left: 20px; }
       body .wrapper .promo-text {
         color: #fff;
-        margin: 150px auto 0 auto;
+        margin: 180px auto 0 auto;
         width: 940px;
         max-width: 100%;
         text-align: center; }
@@ -278,12 +278,12 @@ body {
     body .wrapper .how-it-works {
       width: 940px;
       max-width: 100%;
-      margin: 100px auto 0 auto; }
+      margin: 95px auto 0 auto; }
       body .wrapper .how-it-works .title {
         text-align: center;
         font-weight: 600;
         color: #333333;
-        font-size: 20px; }
+        font-size: 23px; }
       body .wrapper .how-it-works .steps .step {
         border-radius: 3px;
         position: relative;
@@ -323,12 +323,12 @@ body {
         background: url("../../img/step3.png") no-repeat; }
     body .wrapper .partners {
       max-width: 100%;
-      margin: 100px auto 0 auto; }
+      margin: 90px auto 0 auto; }
       body .wrapper .partners .title {
         text-align: center;
         font-weight: 600;
         color: #333333;
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 40px; }
       body .wrapper .partners .partner {
         display: inline-block;
@@ -337,7 +337,7 @@ body {
         margin-right: 20px; }
         body .wrapper .partners .partner img {
           display: block;
-          margin: 0 auto 20px auto; }
+          margin: 0 auto 15px auto; }
         body .wrapper .partners .partner .title {
           font-size: 15px;
           margin-bottom: 20px; }
@@ -365,13 +365,13 @@ body {
     body .wrapper .ideas {
       width: 940px;
       max-width: 100%;
-      margin: 100px auto 0 auto; }
+      margin: 95px auto 0 auto; }
       body .wrapper .ideas .title {
         text-align: center;
         font-weight: 600;
         color: #333333;
-        font-size: 20px;
-        margin-bottom: 40px; }
+        font-size: 23px;
+        margin-bottom: 35px; }
       body .wrapper .ideas .grid-row {
         width: 100%;
         margin-bottom: 15px; }
@@ -384,7 +384,7 @@ body {
           body .wrapper .ideas .grid-row .grid-item .title {
             position: absolute;
             text-align: center;
-            top: 46%;
+            top: 43%;
             width: 100%;
             color: #fff;
             font-weight: 700;
@@ -397,9 +397,9 @@ body {
         text-align: center;
         font-weight: 600;
         color: #333333;
-        font-size: 20px;
-        margin-bottom: 45px;
-        margin-top: 100px; }
+        font-size: 22px;
+        margin-bottom: 35px;
+        margin-top: 95px; }
       body .wrapper .ideas-form .sub-title {
         font-family: "Roboto", sans-serif;
         text-align: center;
@@ -409,12 +409,12 @@ body {
         margin-bottom: 40px; }
       body .wrapper .ideas-form .form {
         margin: 0 auto 10px auto;
-        width: 430px;
+        width: 420px;
         max-width: 100%; }
         body .wrapper .ideas-form .form input {
-          width: 240px;
-          padding-top: 15px;
-          padding-bottom: 15px;
+          width: 225px;
+          padding-top: 13px;
+          padding-bottom: 13px;
           padding-left: 15px;
           border: 1px solid #cccccc;
           border-radius: 5px;
@@ -440,7 +440,7 @@ body {
           font-weight: 600; }
     body .wrapper .footer {
       width: 100%;
-      margin-top: 90px;
+      margin-top: 100px;
       padding-top: 35px;
       border-top: 4px solid #ff4e50;
       padding-bottom: 40px; }

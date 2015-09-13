@@ -11,7 +11,7 @@ body {
       width: 100%;
       background: url('../../img/promo.png') no-repeat top center;
       background-size: cover;
-      min-height: 700px;
+      min-height: 665px;
       padding-top: 38px;
       .header {
         margin: 0 auto;
@@ -45,7 +45,7 @@ body {
       }
       &-text {
         color: #fff;
-        margin: 150px auto 0 auto;
+        margin: 180px auto 0 auto;
         width: $block-width;
         max-width: 100%;
         text-align: center;
@@ -77,12 +77,12 @@ body {
     .how-it-works {
       width: $block-width;
       max-width: 100%;
-      margin: 100px auto 0 auto;
+      margin: 95px auto 0 auto;
       .title {
         text-align: center;
         font-weight: 600;
         color: $title-color;
-        font-size: 20px;
+        font-size: 23px;
       }
       .steps {
         .step {
@@ -134,12 +134,12 @@ body {
     }
     .partners {
       max-width: 100%;
-      margin: 100px auto 0 auto;
+      margin: 90px auto 0 auto;
       .title {
         text-align: center;
         font-weight: 600;
         color: $title-color;
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 40px;
       }
       .partner {
@@ -148,7 +148,7 @@ body {
         width: 220px;
         img {
           display: block;
-          margin: 0 auto 20px auto;
+          margin: 0 auto 15px auto;
         }
         .title {
           font-size: 15px;
@@ -184,13 +184,13 @@ body {
     .ideas {
       width: $block-width;
       max-width: 100%;
-      margin: 100px auto 0 auto;
+      margin: 95px auto 0 auto;
       .title {
         text-align: center;
         font-weight: 600;
         color: $title-color;
-        font-size: 20px;
-        margin-bottom: 40px;
+        font-size: 23px;
+        margin-bottom: 35px;
       }
       .grid-row {
         width: 100%;
@@ -205,7 +205,7 @@ body {
           .title {
             position: absolute;
             text-align: center;
-            top: 46%;
+            top: 43%;
             width: 100%;
             color: #fff;
             font-weight: 700;
@@ -222,9 +222,9 @@ body {
         text-align: center;
         font-weight: 600;
         color: $title-color;
-        font-size: 20px;
-        margin-bottom: 45px;
-        margin-top: 100px;
+        font-size: 22px;
+        margin-bottom: 35px;
+        margin-top: 95px;
       }
       .sub-title {
         font-family: $roboto;
@@ -236,12 +236,12 @@ body {
       }
       .form {
         margin: 0 auto 10px auto;
-        width: 430px;
+        width: 420px;
         max-width: 100%;
         input {
-          width: 240px;
-          padding-top: 15px;
-          padding-bottom: 15px;
+          width: 225px;
+          padding-top: 13px;
+          padding-bottom: 13px;
           padding-left: 15px;
           border: 1px solid #cccccc;
           border-radius: 5px;
@@ -273,7 +273,7 @@ body {
     }
     .footer{
       width: 100%;
-      margin-top: 90px;
+      margin-top: 100px;
       padding-top: 35px;
       border-top: 4px solid $pink;
       padding-bottom: 40px;
