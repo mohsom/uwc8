@@ -20,7 +20,13 @@
 
   .footer .content {
     width: 940px;
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .grid-item {
+    display: inline-block; }
+
+  .mr-r {
+    margin-right: 18px; } }
 @media (max-width: 785px) {
   .header {
     padding-left: 40px;
@@ -40,12 +46,30 @@
     .partners .partner {
       margin-bottom: 60px; }
 
+  .grid-item {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: 120px; }
+
   .first {
     margin-left: 10px; }
 
   .footer .content {
     padding-left: 40px;
-    padding-right: 40px; } }
+    padding-right: 40px; }
+
+  .grid-row {
+    width: 300px;
+    margin: 0 auto; }
+
+  .grid-item {
+    display: block;
+    width: 300px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px auto 0 auto; } }
 @media (max-width: 959px) and (min-width: 785px) {
   .header {
     padding-left: 40px;
@@ -79,7 +103,13 @@
 
   .footer .content {
     padding-left: 40px;
-    padding-right: 40px; } }
+    padding-right: 40px; }
+
+  .grid-item {
+    display: inline-block; }
+
+  .mr-r {
+    margin-right: 18px; } }
 body {
   font-family: "Montserrat", sans-serif; }
   body .wrapper {
@@ -180,7 +210,7 @@ body {
           body .wrapper .how-it-works .steps .step .content .desc {
             margin-top: 20px;
             font-size: 15px;
-            color: #b6b5b4;
+            color: #aeacaa;
             font-family: "Roboto", sans-serif; }
       body .wrapper .how-it-works .steps .step-1 {
         background: url("../../img/step1.png") no-repeat; }
@@ -243,10 +273,8 @@ body {
         width: 100%;
         margin-bottom: 15px; }
         body .wrapper .ideas .grid-row .grid-item {
-          display: inline-block;
           position: relative;
-          max-width: 100%;
-          height: auto; }
+          max-width: 100%; }
           body .wrapper .ideas .grid-row .grid-item img {
             max-width: 100%;
             height: auto; }
@@ -258,8 +286,6 @@ body {
             color: #fff;
             font-weight: 700;
             line-height: 1.2; }
-        body .wrapper .ideas .grid-row .mr-r {
-          margin-right: 18px; }
     body .wrapper .ideas-form {
       width: 940px;
       max-width: 100%;
