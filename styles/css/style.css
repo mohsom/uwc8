@@ -225,7 +225,7 @@ body {
     width: 100%; }
     body .wrapper .promo {
       width: 100%;
-      background: url("../../img/promo.png") no-repeat top center;
+      background: url("../../img/promo.png") no-repeat fixed;
       background-size: cover;
       min-height: 665px;
       padding-top: 38px; }
