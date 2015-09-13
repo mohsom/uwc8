@@ -1,15 +1,19 @@
 @import "_var";
 
 @media(max-width: 959px) {
-  .six{
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .six {
     width: 63%;
   }
-  .three{
+  .three {
     width: 31%;
   }
   .steps {
     width: 98%;
-    margin:40px auto 0 auto;
+    margin: 40px auto 0 auto;
     .step {
       width: 30%;
     }
@@ -20,7 +24,11 @@
       margin-bottom: 60px;
     }
   }
-  .first{
+  .first {
     margin-left: 10px;
+  }
+  .content {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }

@@ -14,8 +14,6 @@ body {
       min-height: 700px;
       padding-top: 38px;
       .header {
-        width: $block-width;
-        max-width: 100%;
         margin: 0 auto;
         .logo {
           display: inline-block;
@@ -298,8 +296,6 @@ body {
       border-top: 4px solid $pink;
       padding-bottom: 40px;
       .content{
-        width: $block-width;
-        max-width: 100%;
         margin: 0 auto;
         .logo{
           display: inline-block;

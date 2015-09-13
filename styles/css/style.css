@@ -1,4 +1,8 @@
 @media (min-width: 960px) {
+  .header {
+    width: 940px;
+    max-width: 100%; }
+
   .steps {
     width: 100%;
     margin-top: 40px; }
@@ -6,8 +10,16 @@
       width: 300px; }
 
   .partners {
-    width: 940px; } }
+    width: 940px; }
+
+  .content {
+    width: 940px;
+    max-width: 100%; } }
 @media (max-width: 959px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px; }
+
   .six {
     width: 63%; }
 
@@ -26,7 +38,11 @@
       margin-bottom: 60px; }
 
   .first {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+
+  .content {
+    padding-left: 40px;
+    padding-right: 40px; } }
 body {
   font-family: "Montserrat", sans-serif; }
   body .wrapper {
@@ -38,8 +54,6 @@ body {
       min-height: 700px;
       padding-top: 38px; }
       body .wrapper .promo .header {
-        width: 940px;
-        max-width: 100%;
         margin: 0 auto; }
         body .wrapper .promo .header .logo {
           display: inline-block;
@@ -274,8 +288,6 @@ body {
       border-top: 4px solid #ff4e50;
       padding-bottom: 40px; }
       body .wrapper .footer .content {
-        width: 940px;
-        max-width: 100%;
         margin: 0 auto; }
         body .wrapper .footer .content .logo {
           display: inline-block;
