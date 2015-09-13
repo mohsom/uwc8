@@ -66,4 +66,17 @@
       float: right;
     }
   }
+  .ideas-form{
+    .form{
+      input{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .button{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+    }
+  }
 }

@@ -251,8 +251,6 @@ body {
           -webkit-box-shadow: 0 10px 26px -7px rgba(238, 238, 238, 1);
           -moz-box-shadow: 0 10px 26px -7px rgba(238, 238, 238, 1);
           box-shadow: 0 10px 26px -7px rgba(238, 238, 238, 1);
-          display: inline-block;
-          vertical-align: middle;
         }
         input::-webkit-input-placeholder {
           font-family: $roboto;
@@ -263,8 +261,6 @@ body {
           font-size: 15px;
         }
         .button{
-          display: inline-block;
-          vertical-align: middle;
           background: $pink;
           padding-top: 13px;
           padding-bottom: 13px;
@@ -275,7 +271,6 @@ body {
           border-radius: 20px;
           text-decoration: none;
           font-weight: 600;
-          margin-left: 10px;
         }
       }
     }

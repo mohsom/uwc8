@@ -42,7 +42,15 @@
   .footer .designed {
     display: inline-block;
     vertical-align: text-top;
-    float: right; } }
+    float: right; }
+
+  .ideas-form .form input {
+    display: inline-block;
+    vertical-align: middle; }
+  .ideas-form .form .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; } }
 @media (max-width: 785px) {
   .header {
     padding-left: 40px;
@@ -112,7 +120,14 @@
         padding-right: 10px; }
   .footer .designed {
     display: block;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .ideas-form .form input {
+    display: block;
+    margin: 0 auto; }
+  .ideas-form .form .button {
+    display: block;
+    margin: 10px auto 0 auto; } }
 @media (max-width: 959px) and (min-width: 785px) {
   .header {
     padding-left: 40px;
@@ -168,7 +183,15 @@
   .footer .designed {
     display: inline-block;
     vertical-align: text-top;
-    float: right; } }
+    float: right; }
+
+  .ideas-form .form input {
+    display: inline-block;
+    vertical-align: middle; }
+  .ideas-form .form .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; } }
 body {
   font-family: "Montserrat", sans-serif; }
   body .wrapper {
@@ -376,9 +399,7 @@ body {
           border-radius: 5px;
           -webkit-box-shadow: 0 10px 26px -7px #eeeeee;
           -moz-box-shadow: 0 10px 26px -7px #eeeeee;
-          box-shadow: 0 10px 26px -7px #eeeeee;
-          display: inline-block;
-          vertical-align: middle; }
+          box-shadow: 0 10px 26px -7px #eeeeee; }
         body .wrapper .ideas-form .form input::-webkit-input-placeholder {
           font-family: "Roboto", sans-serif;
           font-size: 15px; }
@@ -386,8 +407,6 @@ body {
           font-family: "Roboto", sans-serif;
           font-size: 15px; }
         body .wrapper .ideas-form .form .button {
-          display: inline-block;
-          vertical-align: middle;
           background: #ff4e50;
           padding-top: 13px;
           padding-bottom: 13px;
@@ -397,8 +416,7 @@ body {
           font-size: 13px;
           border-radius: 20px;
           text-decoration: none;
-          font-weight: 600;
-          margin-left: 10px; }
+          font-weight: 600; }
     body .wrapper .footer {
       width: 100%;
       margin-top: 90px;
