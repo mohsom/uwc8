@@ -16,12 +16,9 @@ body {
       .header {
         margin: 0 auto;
         .logo {
-          display: inline-block;
-          float: left;
+
         }
         &-left {
-          display: inline-block;
-          float: right;
           a {
             color: #fff;
             text-decoration: none;

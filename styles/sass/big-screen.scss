@@ -66,4 +66,14 @@
       }
     }
   }
+  .header{
+    .logo{
+      display: inline-block;
+      float: left;
+    }
+    &-left{
+      display: inline-block;
+      float: right;
+    }
+  }
 }

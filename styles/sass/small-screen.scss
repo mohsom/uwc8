@@ -102,4 +102,19 @@
       }
     }
   }
+  .header{
+    width: 100%;
+    padding: 0;
+    .logo{
+      width: 200px;
+      display: block;
+      margin: 0 auto -100px auto;
+      padding-top: 130px;
+    }
+    &-left{
+      width: 200px;
+      display: block;
+      margin: -180px auto 0 auto;
+    }
+  }
 }
