@@ -1,6 +1,12 @@
 @import "_var";
 
 @media(max-width: 959px) {
+  .six{
+    width: 63%;
+  }
+  .three{
+    width: 31%;
+  }
   .steps {
     width: 98%;
     margin:40px auto 0 auto;
@@ -13,5 +19,8 @@
     .partner {
       margin-bottom: 60px;
     }
+  }
+  .first{
+    margin-left: 10px;
   }
 }

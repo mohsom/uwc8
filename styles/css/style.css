@@ -8,6 +8,12 @@
   .partners {
     width: 940px; } }
 @media (max-width: 959px) {
+  .six {
+    width: 63%; }
+
+  .three {
+    width: 31%; }
+
   .steps {
     width: 98%;
     margin: 40px auto 0 auto; }
@@ -17,7 +23,10 @@
   .partners {
     width: 480px; }
     .partners .partner {
-      margin-bottom: 60px; } }
+      margin-bottom: 60px; }
+
+  .first {
+    margin-left: 10px; } }
 body {
   font-family: "Montserrat", sans-serif; }
   body .wrapper {
