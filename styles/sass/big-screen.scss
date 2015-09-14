@@ -1,5 +1,14 @@
 @import "_var";
 @media(min-width: 960px){
+  .find-partner {
+    width: 225px;
+  }
+  .other-partners {
+    width: 190px;
+  }
+  .button{
+    width: 160px;
+  }
   .header{
     width: $block-width;
     max-width: 100%;

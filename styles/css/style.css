@@ -1,4 +1,13 @@
 @media (min-width: 960px) {
+  .find-partner {
+    width: 225px; }
+
+  .other-partners {
+    width: 190px; }
+
+  .button {
+    width: 160px; }
+
   .header {
     width: 940px;
     max-width: 100%; }
@@ -61,6 +70,12 @@
     display: inline-block;
     float: right; } }
 @media (max-width: 784px) {
+  .find-partner {
+    width: 280px; }
+
+  .button {
+    width: 280px; }
+
   .header {
     padding-left: 40px;
     padding-right: 40px; }
@@ -75,16 +90,19 @@
       margin: 10px auto; } }
 @media (max-width: 784px) and (max-width: 495px) {
   .partners {
-    width: 220px; }
+    width: 280px; }
     .partners .other-partners {
-      margin: 40px auto 0 auto; }
+      margin: 40px auto 0 auto;
+      width: 280px; }
     .partners .partner {
-      margin-bottom: 60px; } }
+      margin: 0 0 60px 30px;
+      position: relative; } }
 @media (max-width: 784px) and (min-width: 496px) {
   .partners {
     width: 480px; }
     .partners .other-partners {
-      margin: 40px auto 0 auto; }
+      margin: 40px auto 0 auto;
+      width: 280px; }
     .partners .partner {
       margin-bottom: 60px; } }
 @media (max-width: 784px) {
@@ -155,6 +173,15 @@
       display: block;
       margin: -180px auto 0 auto; } }
 @media (max-width: 959px) and (min-width: 785px) {
+  .find-partner {
+    width: 225px; }
+
+  .other-partners {
+    width: 190px; }
+
+  .button {
+    width: 160px; }
+
   .header {
     padding-left: 40px;
     padding-right: 40px; }
@@ -282,7 +309,6 @@ body {
           font-size: 13px;
           text-decoration: none;
           color: #fff;
-          width: 225px;
           border-radius: 20px;
           margin: 40px auto 0 auto;
           padding-top: 13px;
@@ -366,7 +392,6 @@ body {
         padding-top: 13px;
         padding-bottom: 13px;
         text-align: center;
-        width: 190px;
         color: #ff4e50;
         font-size: 13px;
         border: 2px solid #ff4e50;
@@ -442,7 +467,6 @@ body {
           padding-top: 13px;
           padding-bottom: 13px;
           text-align: center;
-          width: 160px;
           color: #fff;
           font-size: 13px;
           border-radius: 20px;

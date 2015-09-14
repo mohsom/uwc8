@@ -1,6 +1,12 @@
 @import "_var";
 
 @media(max-width: 784px) {
+  .find-partner {
+    width: 280px;
+  }
+  .button{
+    width: 280px;
+  }
   .header {
     padding-left: 40px;
     padding-right: 40px;
@@ -17,12 +23,14 @@
   }
   @media (max-width: 495px) {
     .partners {
-      width: 220px;
+      width: 280px;
       .other-partners {
         margin: 40px auto 0 auto;
+        width: 280px;
       }
       .partner {
-        margin-bottom: 60px;
+        margin:0 0 60px 30px;
+        position: relative;
       }
     }
   }
@@ -31,6 +39,7 @@
       width: 480px;
       .other-partners {
         margin: 40px auto 0 auto;
+        width: 280px;
       }
       .partner {
         margin-bottom: 60px;
@@ -52,7 +61,7 @@
       padding-right: 40px;
     }
   }
-  .grid-row{
+  .grid-row {
     width: 300px;
     margin: 0 auto;
   }
@@ -63,19 +72,19 @@
     overflow: hidden;
     border-radius: 5px;
     margin: 10px auto 0 auto;
-    img{
+    img {
 
     }
   }
-  .footer{
-    .logo{
+  .footer {
+    .logo {
       display: block;
       margin: 0 auto 20px auto;
     }
-    .menu{
+    .menu {
       display: block;
       margin: 0 auto;
-      .menu-title{
+      .menu-title {
         margin-bottom: 10px;
         text-align: center;
       }
@@ -91,33 +100,33 @@
         }
       }
     }
-    .designed{
+    .designed {
       display: block;
       margin: 0 auto;
     }
   }
-  .ideas-form{
-    .form{
-      input{
+  .ideas-form {
+    .form {
+      input {
         display: block;
         margin: 0 auto;
       }
-      .button{
+      .button {
         display: block;
         margin: 10px auto 0 auto;
       }
     }
   }
-  .header{
+  .header {
     width: 100%;
     padding: 0;
-    .logo{
+    .logo {
       width: 200px;
       display: block;
       margin: 0 auto -100px auto;
       padding-top: 130px;
     }
-    &-left{
+    &-left {
       width: 160px;
       display: block;
       margin: -180px auto 0 auto;
