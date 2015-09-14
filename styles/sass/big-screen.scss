@@ -1,5 +1,15 @@
 @import "_var";
 @media(min-width: 960px){
+  .three{
+    width: 300px;
+    height: 310px;
+    overflow: hidden;
+  }
+  .six{
+    height: 310px;
+    width: 620px;
+    overflow: hidden;
+  }
   .find-partner {
     width: 225px;
   }
