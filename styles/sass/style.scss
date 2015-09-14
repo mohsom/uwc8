@@ -42,10 +42,10 @@ body {
             padding-top: 10px;
             padding-bottom: 10px;
             margin-left: 20px;
-            transition: all 0.1s;
+            transition: all 0.2s;
             &:hover{
               background-color: $pink;
-              transition: all 0.1s;
+              transition: all 0.2s;
             }
           }
         }
@@ -77,11 +77,11 @@ body {
           margin: 40px auto 0 auto;
           padding-top: 13px;
           padding-bottom: 13px;
-          transition: all 0.1s;
+          transition: all 0.2s;
           &:hover{
             background: #fff;
             color: $pink;
-            transition: all 0.1s;
+            transition: all 0.2s;
           }
         }
       }
@@ -189,12 +189,12 @@ body {
         border-radius: 20px;
         text-decoration: none;
         font-weight: 600;
-        transition: all 0.1s;
+        transition: all 0.2s;
         &:hover{
           border-radius: 0;
           background: $pink;
           color: #fff;
-          transition: all 0.1s;
+          transition: all 0.2s;
         }
       }
     }
@@ -290,10 +290,10 @@ body {
           border-radius: 20px;
           text-decoration: none;
           font-weight: 600;
-          transition: all 0.1s;
+          transition: all 0.2s;
           &:hover{
             border-radius: 0;
-            transition: all 0.1s;
+            transition: all 0.2s;
           }
         }
       }
