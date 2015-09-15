@@ -1,6 +1,14 @@
 @import "_var";
 
 @media(max-width: 784px) {
+  .promo{
+    .title{
+      font-size: 30px;
+    }
+    .sub-title {
+      font-size: 18px;
+    }
+  }
   .find-partner {
     width: 280px;
   }
